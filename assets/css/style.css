@@ -1,0 +1,39 @@
+/* Colori base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #003366; /* Blu istituzionale italiano */
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Stile pulsanti */
+.btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #0055a5;
+}
+
+/* Stile generale */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
